@@ -8,6 +8,10 @@ Original idea: Ne00n
 
 Node.js
 
+## Configuration
+
+Rename config.js.example to config.js and make the required changes.
+
 ## Installation
 
 npm install
