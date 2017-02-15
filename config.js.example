@@ -1,0 +1,8 @@
+module.exports = {
+    discord: {
+        email: '',
+        password: '',
+        channel: '260918481665392650/260918481665392650',
+    },
+    botname: 'lebot',
+};

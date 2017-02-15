@@ -1,0 +1,19 @@
+{
+  "name": "lebot-selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "chromedriver": "^2.27.2",
+    "nedb": "^1.8.0",
+    "node-cache": "^4.1.1",
+    "request": "^2.79.0",
+    "rss-to-json": "^1.0.2",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
