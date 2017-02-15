@@ -4,6 +4,10 @@ This is a poorly coded bot for Discord, built with Selenium.
 
 Original idea: Ne00n
 
+## Requisites
+
+Node.js
+
 ## Installation
 
 npm install
