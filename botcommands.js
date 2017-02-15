@@ -277,9 +277,13 @@ module.exports = {
     },
 
     kek: function(input) {
-        if (input.user.toLowerCase() == 'ne00n') {
-            return '**That is not funny**';
+        var message = input.message.toLowerCase();
+
+        if ( message === 'topkek' ) {
+            return '**PLS**';
         }
+
+        return '**That is not funny**';
     },
 
     gif: function(input) {

@@ -115,7 +115,7 @@ var analizeMessages = function(items) {
                 driver.findElement(By.xpath("//textarea[@placeholder='Message #general']")).sendKeys(reply + Keys.ENTER);
             });
         }
-        else if (message.includes('kek')) {
+        else if (message.startsWith('kek')) {
             reply = botcommands.kek(items[i]);
             driver.findElement(By.xpath("//textarea[@placeholder='Message #general']")).sendKeys(reply + Keys.ENTER);
         }
